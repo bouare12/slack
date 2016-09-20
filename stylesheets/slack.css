@@ -1,0 +1,24 @@
+/* line 1, ../sass/slack.scss */
+body {
+  background-image: url("../img/3.jpg");
+}
+
+/* line 11, ../sass/slack.scss */
+nav ul {
+  float: right;
+}
+/* line 13, ../sass/slack.scss */
+nav ul li {
+  display: inline-block;
+  inline-block: right;
+}
+/* line 16, ../sass/slack.scss */
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 25, ../sass/slack.scss */
+.pretex h1 {
+  color: white;
+}

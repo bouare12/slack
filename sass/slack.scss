@@ -1,3 +1,28 @@
 body{
+
+	background-image: url("../img/3.jpg");
+}
+nav{
+
+	.logo{
+
+	}
+
+	ul{
+		float: right;
+		li{
+			display: inline-block;
+			inline-block: right;
+			a{
+				color: white;
+				text-decoration: none;
+			}
+		}
+	}
+}
+.pretex{
 	
+	h1{
+		color: white;
+	}
 }
