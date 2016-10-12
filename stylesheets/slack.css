@@ -1,24 +1,112 @@
 /* line 1, ../sass/slack.scss */
-body {
-  background-image: url("../img/3.jpg");
+.story {
+  background: url(../img/3.jpg);
 }
-
-/* line 11, ../sass/slack.scss */
-nav ul {
-  float: right;
+/* line 3, ../sass/slack.scss */
+.story .top {
+  transform: translate3d(0px, 0px, 0px);
+  transition: transform 420ms cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+  width: 100%;
+  z-index: 99;
 }
 /* line 13, ../sass/slack.scss */
-nav ul li {
-  display: inline-block;
-  inline-block: right;
+.story .top ul {
+  float: right;
+  line-height: 4.375rem;
+  list-style-type: none;
+  margin: 0 20px 0 0;
+  padding: 0;
 }
-/* line 16, ../sass/slack.scss */
-nav ul li a {
-  color: white;
+/* line 20, ../sass/slack.scss */
+.story .top ul li {
+  display: inline-block;
+}
+/* line 23, ../sass/slack.scss */
+.story .top ul li a {
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  line-height: 1em;
+  margin-left: 9px;
+  opacity: 0.8;
+  padding: 8px 7px 9px;
+  position: relative;
   text-decoration: none;
 }
-
-/* line 25, ../sass/slack.scss */
-.pretex h1 {
+/* line 42, ../sass/slack.scss */
+.story .cta_ad {
+  display: block;
+  position: absolute;
+  width: 100%;
+  padding: 0;
+}
+/* line 48, ../sass/slack.scss */
+.story .cta_ad .cta_story_header {
+  position: relative;
+  text-align: center;
+  transform: translate3d(0px, 0px, 0px);
+  transform-origin: center bottom 0;
+  width: 840px;
+  letter-spacing: 0.0106rem;
   color: white;
+}
+/* line 66, ../sass/slack.scss */
+.story .cta_ad .cta_container {
+  padding-top: 0;
+}
+/* line 69, ../sass/slack.scss */
+.story .cta_ad .cta_container .cta_subheader {
+  display: block;
+  font-size: 1.38rem;
+  line-height: 1.75rem;
+  margin: 40px auto 22px;
+  max-width: 866px;
+  padding: 0;
+  width: 100%;
+  color: white;
+}
+/* line 79, ../sass/slack.scss */
+.story .cta_ad .cta_container .cta_subheader strong {
+  font-weight: 900;
+}
+/* line 85, ../sass/slack.scss */
+.story .cta_ad .cta_container .cta {
+  background: rgba(0, 0, 0, 0.65) none repeat scroll 0 0;
+}
+/* line 88, ../sass/slack.scss */
+.story .cta_ad .cta_container .cta .cta_form {
+  vertical-align: middle !important;
+}
+/* line 93, ../sass/slack.scss */
+.story .cta_ad .cta_container .cta .cta_form span .inline_input {
+  margin-left: 0 !important;
+  margin-right: 7px !important;
+  font-size: 1.249rem;
+  margin-bottom: 0;
+  padding: 0.743rem;
+  width: 240px;
+  margin-right: 15px !important;
+}
+/* line 104, ../sass/slack.scss */
+.story .cta_ad .cta_container .cta .cta_form .btn {
+  vertical-align: top !important;
+  letter-spacing: 0;
+  font-size: 1.126rem;
+  opacity: 1;
+  cursor: pointer;
+  line-height: 3rem;
+  margin: 0;
+  padding: 0;
+  width: 184px;
+  background: #56b68b none repeat scroll 0 0;
+  border: 1px solid #56b68b;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  font-family: Slack-Lato,sans-serif;
+  font-weight: 700;
+  text-decoration: none;
 }
