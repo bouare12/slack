@@ -45,19 +45,19 @@
 }
 /* line 48, ../sass/slack.scss */
 .story .cta_ad .cta_story_header {
+  margin-top: 200px;
   position: relative;
   text-align: center;
   transform: translate3d(0px, 0px, 0px);
   transform-origin: center bottom 0;
-  width: 840px;
   letter-spacing: 0.0106rem;
   color: white;
 }
-/* line 66, ../sass/slack.scss */
+/* line 67, ../sass/slack.scss */
 .story .cta_ad .cta_container {
   padding-top: 0;
 }
-/* line 69, ../sass/slack.scss */
+/* line 70, ../sass/slack.scss */
 .story .cta_ad .cta_container .cta_subheader {
   display: block;
   font-size: 1.38rem;
@@ -68,19 +68,22 @@
   width: 100%;
   color: white;
 }
-/* line 79, ../sass/slack.scss */
+/* line 80, ../sass/slack.scss */
 .story .cta_ad .cta_container .cta_subheader strong {
   font-weight: 900;
 }
-/* line 85, ../sass/slack.scss */
+/* line 86, ../sass/slack.scss */
 .story .cta_ad .cta_container .cta {
+  transform-origin: center bottom 0;
+  text-align: center;
+  margin-left: 0;
   background: rgba(0, 0, 0, 0.65) none repeat scroll 0 0;
 }
-/* line 88, ../sass/slack.scss */
+/* line 93, ../sass/slack.scss */
 .story .cta_ad .cta_container .cta .cta_form {
   vertical-align: middle !important;
 }
-/* line 93, ../sass/slack.scss */
+/* line 98, ../sass/slack.scss */
 .story .cta_ad .cta_container .cta .cta_form span .inline_input {
   margin-left: 0 !important;
   margin-right: 7px !important;
@@ -90,7 +93,7 @@
   width: 240px;
   margin-right: 15px !important;
 }
-/* line 104, ../sass/slack.scss */
+/* line 109, ../sass/slack.scss */
 .story .cta_ad .cta_container .cta .cta_form .btn {
   vertical-align: top !important;
   letter-spacing: 0;
@@ -108,5 +111,49 @@
   display: inline-block;
   font-family: Slack-Lato,sans-serif;
   font-weight: 700;
+  text-decoration: none;
+}
+/* line 130, ../sass/slack.scss */
+.story .cta_ad .cta_container .cta .cta_footer {
+  display: block;
+  font-size: 0.9375rem;
+  line-height: 1.375rem;
+  margin: 19px 0 0;
+  text-align: center;
+  width: 100%;
+  color: #aaa;
+}
+/* line 139, ../sass/slack.scss */
+.story .cta_ad .cta_container .cta .cta_footer .opt_cta_signin {
+  color: #aaa;
+}
+/* line 144, ../sass/slack.scss */
+.story .cta_ad .cta_container .cta .cta_footer a {
+  color: #aaa;
+}
+/* line 152, ../sass/slack.scss */
+.story .cta_ad .story_location {
+  margin-top: 60px;
+  bottom: 1.06rem;
+  font-size: 0.85rem;
+  line-height: 1.16rem;
+  position: absolute;
+  right: 1.59rem;
+  padding: 0;
+  text-align: left;
+}
+/* line 162, ../sass/slack.scss */
+.story .cta_ad .story_location strong {
+  font-size: 0.95rem;
+  font-weight: 900;
+}
+/* line 166, ../sass/slack.scss */
+.story .cta_ad .story_location strong a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 172, ../sass/slack.scss */
+.story .cta_ad .story_location a {
+  color: #fff;
   text-decoration: none;
 }
